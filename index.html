@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Roskey - Web Developer portfolio and landing page"
+    />
+    <title>Roskey | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">Roskey</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Web Developer</p>
+            <h1>Building clean, modern experiences on the web.</h1>
+            <p class="subtitle">
+              I design and develop responsive websites and web applications that are
+              fast, functional, and user-focused.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Hire Me</a>
+            </div>
+            <ul class="quick-stats" aria-label="Key stats">
+              <li><strong>3+</strong><span>Years experience</span></li>
+              <li><strong>20+</strong><span>Projects</span></li>
+              <li><strong>100%</strong><span>Client focus</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Developer profile card">
+            <div class="profile-badge">Available for work</div>
+            <div class="avatar">R</div>
+            <h2>Roskey</h2>
+            <p>Frontend & Web Developer</p>
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Node</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div>
+            <p class="section-label">About Me</p>
+            <h2>Turning ideas into polished digital products.</h2>
+          </div>
+          <div>
+            <p>
+              I’m a web developer focused on creating elegant, high-performing sites
+              and applications. My work blends design thinking with practical
+              development to deliver experiences people enjoy using.
+            </p>
+            <p>
+              Whether it’s a marketing site, portfolio, SaaS dashboard, or custom app,
+              I aim for clarity, maintainability, and strong user experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt">
+        <div class="container">
+          <p class="section-label">Services</p>
+          <h2>What I can help with</h2>
+          <div class="card-grid">
+            <article class="info-card">
+              <h3>Landing Pages</h3>
+              <p>Conversion-focused, responsive pages designed to attract and convert visitors.</p>
+            </article>
+            <article class="info-card">
+              <h3>Portfolio Sites</h3>
+              <p>Professional online presence that presents your work with clarity and impact.</p>
+            </article>
+            <article class="info-card">
+              <h3>Web Applications</h3>
+              <p>Interactive digital products built for speed, usability, and scalability.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <p class="section-label">Projects</p>
+          <h2>Selected work</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-visual gradient-one"></div>
+              <div class="project-body">
+                <h3>Brand Launch Site</h3>
+                <p>Modern marketing website for a startup with strong conversion-focused design.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual gradient-two"></div>
+              <div class="project-body">
+                <h3>Portfolio Platform</h3>
+                <p>Elegant portfolio interface for showcasing services, skills, and case studies.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual gradient-three"></div>
+              <div class="project-body">
+                <h3>Business Dashboard</h3>
+                <p>Data-rich dashboard experience for monitoring key metrics and performance.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-box">
+          <div>
+            <p class="section-label">Contact</p>
+            <h2>Let’s build something great.</h2>
+          </div>
+          <a class="btn btn-primary" href="mailto:roskey@example.com">roskey@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Roskey</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
